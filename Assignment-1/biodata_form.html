@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO Data</title>
+</head>
+<body>
+    <div>
+        <h1>My Bio Data</h1>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend><br>
+                    <div>
+                        <span>
+                            <label for="fname">First Name:</label>
+                            <input type="text" name="fName" value="" id="fName" placeholder="First Name" required>
+                        </span>
+                        <span>
+                            <label for="lname">Last Name:</label>
+                            <input type="text" name="lName" id="LName" value="" placeholder="Last Name" required>
+                        </span>
+                    </div><br>
+
+                    <div>
+                        <label  for="gender">Gender:</label>
+                            <input type="radio" id="male" name="gender" id="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" id="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" id="gender" value="other">
+                            <label for="other">Other</label>
+                    </div><br>
+
+                    <div>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" name="dob" value="" id="dob" required>
+                    </div><br>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" value="" placeholder="Enter Your Email" required>
+                    </div><br>
+
+                    <div>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" value="" id="phone" placeholder="+91" required>
+                    </div><br>
+
+                    <div>
+                        <label for="height">Height:</label>
+                        <input type="number" step="0.01" name="height" value="" id="height" min="0" placeholder="Height in Feet" required>
+                    </div><br>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Education</legend><br>
+
+                    <div>
+                        <label for="sname">School Name:</label>
+                        <input type="text" name="sname" value="" id="sname" placeholder="School Name" required>
+                    </div><br>
+
+                    <div>
+                        <label for="class">Class:</label>
+                        <input type="number" name="class" value="" id="class" min="0" placeholder="Enter Class" required>
+                    </div><br>
+
+                    <div>
+                        <label for="stream">Stream:</label>
+                        <select name="stream" id="stream" required>
+                            <option selected disabled >Select</option>
+                            <option value="science">Science</option>
+                            <option value="biology">Biology</option>
+                            <option value="humanity">Humanity</option>
+                            <option value="arts">Arts</option>
+                          </select>
+                    </div><br>
+
+                    <div>
+                        <label for="marksheet">Marksheet:</label>
+                        <input type="file" name="marksheet" value="" id="marksheet" required>
+                    </div><br>
+                    
+                </fieldset><br>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
