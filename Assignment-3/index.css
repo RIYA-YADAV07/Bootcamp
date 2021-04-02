@@ -1,0 +1,23 @@
+body{
+    background-color:#48cae4;
+    justify-content:center
+}
+
+.hover{
+    margin: 40vh auto;
+    border: 2px solid #1d3557;
+    width:fit-content;
+    padding:15px 20px;
+    font-size:30px;
+    color:#1d3557;
+    transition: transform 100ms ease-in 100ms;
+    border-radius:5px;
+}
+
+.hover:hover{
+    transform: translateY(-5px);
+    border-color:white;
+    color:white;
+    box-shadow: 0 8px 2px -2px #d8e2dc;
+    cursor:pointer;
+}
